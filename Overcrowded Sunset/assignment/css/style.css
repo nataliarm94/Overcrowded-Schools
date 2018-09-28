@@ -1,0 +1,66 @@
+/* CSS file */
+
+/* I chose this color because it's pretty. */
+body {
+	background-color:  #d98cb3;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* All the aesthetics of the page as a whole. Chose 90 percent because I didn't want the icons to look too small */
+main {
+  width: 90%;
+  margin: 0 auto; 
+}
+
+/* Centering the header makes it look clean and organized */
+header {
+  text-align: center;
+}
+
+/* each new section will clear both columns and go again directly beneath */
+section {
+  clear: both;
+}
+
+/* I had to play around a lot with width size to finally get it looking how I wanted. 80% helped it all look centered and organized */
+article {
+  float: right;
+  width: 80%;
+}
+
+/* used for icon image, "floated" to the left of the article with the text blurb */
+aside {
+  float: left;
+  width: 15%;
+}
+
+/* this was an interesting find. 
+I wanted to change the color of the hr and it took a good while on google but someone recommended all of these steps and I copied it and personalized it. 
+Hiram helped me figure out what padding did and I finally was able to create space between sections*/
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cc6699;
+    margin: 1em 0;
+    padding: 10px;
+  }
+
+/* Margin made it look better. I kept everything centered to keep it clean. I tried a few fonts but none looked as good as Georgia, it's not because it's the 
+one you had in the sample  */
+
+h1 {
+  margin: 10px; 
+	text-align: center;
+}
+
+h2 {
+	text-align: center
+  ;
+}
+
+h3 {
+	 font-family: Georgia;
+  padding: 0 100px
+}
